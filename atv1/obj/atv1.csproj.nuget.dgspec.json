@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno_Manha\\source\\repos\\atv1\\atv1\\atv1.csproj": {}
+    "C:\\Users\\Aluno_Manha\\Documents\\atividades1-25\\atv1\\atv1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno_Manha\\source\\repos\\atv1\\atv1\\atv1.csproj": {
+    "C:\\Users\\Aluno_Manha\\Documents\\atividades1-25\\atv1\\atv1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno_Manha\\source\\repos\\atv1\\atv1\\atv1.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno_Manha\\Documents\\atividades1-25\\atv1\\atv1.csproj",
         "projectName": "atv1",
-        "projectPath": "C:\\Users\\Aluno_Manha\\source\\repos\\atv1\\atv1\\atv1.csproj",
+        "projectPath": "C:\\Users\\Aluno_Manha\\Documents\\atividades1-25\\atv1\\atv1.csproj",
         "packagesPath": "C:\\Users\\Aluno_Manha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno_Manha\\source\\repos\\atv1\\atv1\\obj\\",
+        "outputPath": "C:\\Users\\Aluno_Manha\\Documents\\atividades1-25\\atv1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
