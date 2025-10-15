@@ -491,8 +491,6 @@ namespace atv1
                 cabecalho(nome);
 
             }
-
-
         }
 
 
