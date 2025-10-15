@@ -87,33 +87,43 @@ while (true)
             break;
         case 16:
             Console.WriteLine("Atividade 16:\n");
+            att.At16();
             break;
         case 17:
             Console.WriteLine("Atividade 17:\n");
+            att.At17();
             break;
         case 18:
             Console.WriteLine("Atividade 18:\n");
+            att.At18();
             break;
         case 19:
             Console.WriteLine("Atividade 19:\n");
+            att.At19();
             break;
         case 20:
             Console.WriteLine("Atividade 20:\n");
+            att.At20();
             break;
         case 21:
             Console.WriteLine("Atividade 21:\n");
+            att.At21();
             break;
         case 22:
             Console.WriteLine("Atividade 22:\n");
+            att.At22();
             break;
         case 23:
             Console.WriteLine("Atividade 23:\n");
+            att.At23();
             break;
         case 24:
             Console.WriteLine("Atividade 24:\n");
+            att.At24();
             break;
         case 25:
             Console.WriteLine("Atividade 25:\n");
+            att.At25();
             break;
     }
 }
