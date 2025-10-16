@@ -190,7 +190,7 @@ namespace atv1
 
         public void At11()
         {
-            double A, B, C;
+            double A, B, C, D;
 
             Console.WriteLine("Informe o primeiro número: ");
             A = double.Parse(Console.ReadLine());
@@ -201,9 +201,12 @@ namespace atv1
             Console.WriteLine("Informe o terceiro número: ");
             C = double.Parse(Console.ReadLine());
 
+            Console.WriteLine("Informe o quarto número: ");
+            D = double.Parse(Console.ReadLine());
+
 
             // cria um array que vai pegar os números
-            double[] numeros = { A, B, C };
+            double[] numeros = { A, B, C, D };
 
             // ordena os números em ordem crescente
             Array.Sort(numeros);
@@ -213,10 +216,6 @@ namespace atv1
             {
                 Console.WriteLine(numero);
             }
-
-
-
-
         }
 
         public void At12()
@@ -308,9 +307,6 @@ namespace atv1
             {
                 Console.WriteLine("Não é possível calcular a riz quadrada pois o número informado é negativo");
             }
-
-
-
         }
 
         public void At15()
