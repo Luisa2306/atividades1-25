@@ -19,7 +19,7 @@ while (true)
 
     Atividades att = new Atividades();
     Atividades.At23 att23 = new Atividades.At23();
-   
+    Atividades.At24 att24 = new Atividades.At24();
     Menu();
 
     switch (escolha)
@@ -118,13 +118,6 @@ while (true)
             Console.WriteLine("Atividade 23:\n");
             att23.at23();
             break;
-        case 24:
-            Console.WriteLine("Atividade 24:\n");
-            att.At24();
-            break;
-        case 25:
-            Console.WriteLine("Atividade 25:\n");
-            att.At25();
-            break;
+      
     }
 }
