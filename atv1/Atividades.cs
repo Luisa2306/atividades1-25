@@ -486,7 +486,7 @@ namespace atv1
 
             public void at23()
             {
-                Console.WriteLine("Informe seu nome: ");
+                Console.Write("Informe seu nome: ");
                 string nome = Console.ReadLine();
                 cabecalho(nome);
 
@@ -494,9 +494,38 @@ namespace atv1
         }
 
 
-        public void At24()
+        public class At24
         {
+            static int EhLetra(char c)
+            {
+                if (Char.IsLetter(c))
+                {
+                    return 1;
+                }
+                else
+                {
+                    return 0;
+                }
+            }
 
+            public static void Main()
+            {
+                Console.Write("Digite um caractere: ");
+                char caractere = Console.ReadKey().KeyChar;
+
+                Console.WriteLine();
+
+                int resultado = EhLetra(caractere);
+
+                if (resultado == 1)
+                {
+                    Console.WriteLine("É uma letra do alfabeto!");
+                }
+                else
+                {
+                    Console.WriteLine("Não é uma letra do alfabeto.");
+                }
+            }
         }
 
         public void At25()
